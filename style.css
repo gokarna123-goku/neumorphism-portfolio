@@ -348,6 +348,16 @@ nav ul li .active{
 }
 
 
+/* Skill Section */
+.skill_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.09);
+}
 
 
 
