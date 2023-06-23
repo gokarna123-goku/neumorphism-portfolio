@@ -14,19 +14,40 @@ li{
 }
 
 :root{
-    --bg_color: ;
-    --primary: ;
-    --secondary: ;
-    --tertiary: ;
+    --bg_color: #222222;
+    --primary: #5f60b3;
+    --secondary: #e7e7e7;
+    --tertiary: #7d7d7d;
     --bg_gradient: radial-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.84));
 }
 
-/* nav{
+
+/* Customized scrollbar */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track{
+    background: #323232;
+    opacity: 0.6;
+}
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb{
+    background: #404040;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #3f3f3f;
+}
+
+
+.main_section{
     width: 100%;
-    height: auto;
-    background: var(--bg_gradient), url("https://cdn.pixabay.com/photo/2018/10/04/14/22/reading-3723751_1280.jpg") no-repeat;
-    background-position: center center;
-    background-size: cover;
-} */
+    min-height: 150vh;
+    background: var(--bg_color);
+    overflow: hidden;
+}
+
 
 /*  */
