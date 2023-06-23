@@ -253,7 +253,7 @@ nav ul li .active{
     color: var(--secondary);
     font-weight: 600;
     letter-spacing: 0.02rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3.0rem;
 }
 
 
@@ -266,6 +266,13 @@ nav ul li .active{
     flex-wrap: wrap;
     column-gap: 4.2rem;
     row-gap: 2.5rem;
+}
+.about_section .tag{
+    font-size: 2.5rem;
+    color: var(--secondary);
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    margin-bottom: 1.5rem;
 }
 .about_section .left_section{
     position: relative;
@@ -359,6 +366,29 @@ nav ul li .active{
     background: rgba(0, 0, 0, 0.09);
 }
 
+.skill_section .skill_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 4.0rem;
+}
+.skill_box .skill_card{
+    width: 50%;
+    height: auto;
+    background: var(--bg_color);
+    padding: 40px;
+    border-radius: 6px;
+    box-shadow:  5px 5px 8px #111111,
+                -5px -5px 8px #2c2c2c;
+}
+.skill_card .badge{
+    background: var(--primary);
+    padding: 10px;
+    font-size: 1.0rem;
+    color: var(--bg_color);
+    border-radius: 4px;
+}
 
 
 
