@@ -101,8 +101,7 @@ nav{
     padding: 25px 60px;
     border-radius: 0px;
     background: linear-gradient(225deg, #1f1f1f, #242424);
-    box-shadow:  -2px 2px 14px #0e0e0e,
-                 2px -2px 14px #363636;
+    box-shadow:  -.5px .5px 15px #0e0e0e;
     display: flex;
     align-items: center;
     justify-content: space-between;
