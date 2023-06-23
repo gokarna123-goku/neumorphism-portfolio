@@ -547,6 +547,7 @@ nav ul li .active{
                 -.5px -.5px 7px #404040;
     transition: var(--ease_out);
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 .portfolio_card:hover{
     border: 1px solid var(--bg_color);
@@ -566,8 +567,6 @@ nav ul li .active{
     left: 8px;
     right: 8px;
     background: var(--bg_gradient_portfolio);
-    /* width: 100%;
-    height: auto; */
     padding: 30px 25px 15px 25px;
     display: flex;
     align-items: flex-start;
