@@ -611,20 +611,16 @@ nav ul li .active{
 
 
 
-/* 
-position: absolute;
-    bottom: 0;
-    background: var(--bg_gradient_portfolio);
+/* Blog Section */
+.blog_section{
     width: 100%;
     height: auto;
-    padding: 30px 25px 15px 25px;
     display: flex;
-    align-items: flex-start;
-    justify-content: end;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    opacity: 0;
-    transform: opacity 0.78s ease-out;
-*/
+    background: rgba(0, 0, 0, 0.09);
+}
 
 
 /*  */
