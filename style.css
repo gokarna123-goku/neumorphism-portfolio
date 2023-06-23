@@ -241,6 +241,9 @@ nav ul li .active{
                 inset -8px -8px 10px rgba(255, 255, 255, 0.5);
     color: var(--bg_color);
 }
+.main_padding{
+    padding: 60px 100px;
+}
 
 
 
