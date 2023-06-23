@@ -268,8 +268,8 @@ nav ul li .active{
 }
 .about_section .left_section{
     position: relative;
-    width: 38%;
-    height: 65vh;
+    width: 37%;
+    height: 70vh;
 }
 .left_section .about_img{
     width: 100%;
@@ -288,8 +288,15 @@ nav ul li .active{
 
 
 .about_section .right_section{
-    width: 55%;
+    width: 48%;
     height: auto;
+}
+.right_section .desc{
+    font-size: 1.1rem;
+    color: var(--tertiary);
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    line-height: 1.65rem;
 }
 
 
