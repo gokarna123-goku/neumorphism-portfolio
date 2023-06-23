@@ -573,7 +573,7 @@ nav ul li .active{
     align-items: flex-start;
     justify-content: end;
     flex-direction: column;
-    opacity: 1;
+    opacity: 0;
     transform: opacity 0.78s ease-out;
 }
 .portfolio_data .portfolio_title{
@@ -604,6 +604,10 @@ nav ul li .active{
 .portfolio_detail .buttons a{
     font-size: 1.2rem;
     color: var(--primary);
+}
+.portfolio_card:hover .portfolio_data{
+    opacity: 1;
+    transition: opacity 0.78s ease-out;
 }
 
 
