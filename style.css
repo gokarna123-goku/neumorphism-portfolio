@@ -300,6 +300,52 @@ nav ul li .active{
     line-height: 1.65rem;
     margin-bottom: 2.5rem;
 }
+.right_section .my_info{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.0rem;
+}
+.my_info .line{
+    width: 100%;
+    height: 1.5px;
+    background: var(--primary);
+}
+.my_info .info_data{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1.5rem;
+}
+.info_data .info_box{
+    background: var(--bg_color);
+    color: var(--secondary);
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding: 8px 10px;
+    border-radius: 4px;
+    font-size: 0.99rem;
+}
+.info_data .info_box i{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: var(--primary);
+    box-shadow: 1px 1px 10px #5f60b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.0rem;
+    color: var(--bg_color);
+}
 
 
 
