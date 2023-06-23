@@ -6,6 +6,27 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
 
+:root{
+    --bg_color: ;
+    --primary: ;
+    --secondary: ;
+    --tertiary: ;
+    --bg_gradient: radial-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.84));
+}
+
+/* nav{
+    width: 100%;
+    height: auto;
+    background: var(--bg_gradient), url("https://cdn.pixabay.com/photo/2018/10/04/14/22/reading-3723751_1280.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
+} */
 
 /*  */
