@@ -401,6 +401,7 @@ nav ul li .active{
     display: flex;
     flex-direction: column;
     row-gap: 0.3rem;
+    margin-bottom: 1.7rem;
 }
 .progress_section .progress_data{
     width: 100%;
