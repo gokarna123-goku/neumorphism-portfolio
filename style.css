@@ -46,36 +46,41 @@ li{
 .primary_btn{
     border: 2px solid rgba(95, 96, 179, 0.35);
     background: rgba(95, 96, 179, 0.3);
-    font-size: 1.1rem;
     color: var(--secondary);
-    border-radius: 8px;
-    padding: 14px 35px;
     box-shadow:  2px 2px 6px #131313,
                 -2px -2px 6px #3f3f3f;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    padding: 13px 35px;
     transition: var(--ease_out);
     cursor: pointer;
 }
 .primary_btn:hover{
     background: transparent;
     color: var(--primary);
-    /* border: 2px solid #3f3f3f; */
     border: 2px solid rgba(95, 96, 179, 0.55);
     box-shadow:  2px 2px 8px #131313,
                 -2px -2px 8px #3f3f3f;
+    /* border: 2px solid #3f3f3f; */
 }
 .secondary_btn{
     background: transparent;
-    border: 2px solid var(--primary);
     color: var(--primary);
+    border: 2px solid rgba(95, 96, 179, 0.55);
+    box-shadow:  2px 2px 8px #131313,
+                -2px -2px 8px #3f3f3f;
     font-size: 1.1rem;
-    color: var(--secondary);
-    padding: 10px 20px;
+    border-radius: 8px;
+    padding: 12px 35px;
     transition: var(--ease_out);
+    cursor: pointer;
 }
 .secondary_btn:hover{
-    background: var(--primary);
-    border: 2px solid var(--primary);
+    border: 2px solid rgba(95, 96, 179, 0.35);
+    background: rgba(95, 96, 179, 0.3);
     color: var(--secondary);
+    box-shadow:  2px 2px 6px #131313,
+                -2px -2px 6px #3f3f3f;
 }
 .tertiary_btn{
     background: transparent;
@@ -85,10 +90,11 @@ li{
     color: var(--primary);
     padding: 10px 20px;
     transition: var(--ease_out);
+    cursor: pointer;
 }
 .tertiary_btn:hover{
-    color: var(--secondary);
-    opacity: 0.65;
+    color: var(--primary);
+    opacity: 0.85;
 }
 
 .hero_section{
