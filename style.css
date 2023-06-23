@@ -197,7 +197,7 @@ nav ul li .active{
     justify-content: center;
     flex-direction: column;
     row-gap: 0.4rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.2rem;
 }
 
 .user_info .fullname{
@@ -211,6 +211,35 @@ nav ul li .active{
     font-weight: 550;
     letter-spacing: 0.05rem;
     color: var(--primary);
+}
+
+.hero_section .social_account{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.5rem;
+}
+.social_account .social_box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: var(--secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.9),
+                -5px -5px 10px rgba(255, 255, 255, 0.15);
+    font-size: 1.5rem;
+    color: var(--primary);
+    transition: var(--ease_out);
+}
+.social_account .social_box:hover{
+    box-shadow: inset 8px 8px 10px rgba(0, 0, 0, 0.5),
+                inset -8px -8px 10px rgba(255, 255, 255, 0.5);
+    color: var(--bg_color);
 }
 
 
