@@ -19,6 +19,7 @@ li{
     --secondary: #e7e7e7;
     --tertiary: #7d7d7d;
     --bg_gradient: radial-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.84));
+    --ease_out: 0.5s ease-out;
 }
 
 
@@ -41,7 +42,52 @@ li{
     background: #3f3f3f;
 }
 
+/* ===================X Global Button Styling X=================== */
+.primary_btn{
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    font-size: 1.1rem;
+    color: var(--secondary);
+    padding: 10px 20px;
+    transition: var(--ease_out);
+}
+.primary_btn:hover{
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+}
+.secondary_btn{
+    background: transparent;
+    border: 2px solid var(--primary);
+    color: var(--primary);
+    font-size: 1.1rem;
+    color: var(--secondary);
+    padding: 10px 20px;
+    transition: var(--ease_out);
+}
+.secondary_btn:hover{
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    color: var(--secondary);
+}
+.tertiary_btn{
+    background: transparent;
+    border: none;
+    color: var(--primary);
+    font-size: 1.15rem;
+    color: var(--primary);
+    padding: 10px 20px;
+    transition: var(--ease_out);
+}
+.tertiary_btn:hover{
+    color: var(--secondary);
+    opacity: 0.65;
+}
 
+
+/* ===================X Main Section X=================== */
+
+/* Main Section */
 .main_section{
     width: 100%;
     min-height: 150vh;
