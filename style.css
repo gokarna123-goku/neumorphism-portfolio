@@ -243,9 +243,16 @@ nav ul li .active{
     color: var(--bg_color);
 }
 
-/* Global Padding section */
+/* Global Padding and Tag section */
 .main_padding{
     padding: 60px 100px;
+}
+.tag{
+    font-size: 2.5rem;
+    color: var(--secondary);
+    font-weight: 600;
+    letter-spacing: 0.02rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -256,23 +263,32 @@ nav ul li .active{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 2.0rem;
+    column-gap: 4.2rem;
+    row-gap: 2.5rem;
 }
 .about_section .left_section{
     position: relative;
-    width: 35%;
-    height: 55vh;
+    width: 38%;
+    height: 65vh;
 }
-
 .left_section .about_img{
-    width: 80%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     object-position: center;
+    box-shadow: -20px -20px #5f60b3;
+    border-radius: 6px;
+    border: 2px solid var(--tertiary);
+    transition: all var(--ease_out);
+}
+.left_section .about_img:hover{
+    box-shadow: -15px -15px #5f60b3;
 }
 
+
+
 .about_section .right_section{
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 
