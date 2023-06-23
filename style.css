@@ -170,6 +170,7 @@ nav ul li .active{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-bottom: 2px solid rgba(95, 96, 179, 0.08);
 }
 .hero_section .img_box{
     width: 200px;
@@ -241,8 +242,38 @@ nav ul li .active{
                 inset -8px -8px 10px rgba(255, 255, 255, 0.5);
     color: var(--bg_color);
 }
+
+/* Global Padding section */
 .main_padding{
     padding: 60px 100px;
+}
+
+
+/* About Section */
+.about_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.0rem;
+}
+.about_section .left_section{
+    position: relative;
+    width: 35%;
+    height: 55vh;
+}
+
+.left_section .about_img{
+    width: 80%;
+    height: 90%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about_section .right_section{
+    width: 60%;
+    height: auto;
 }
 
 
