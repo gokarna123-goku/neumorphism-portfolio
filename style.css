@@ -379,8 +379,8 @@ nav ul li .active{
     background: var(--bg_color);
     padding: 40px;
     border-radius: 6px;
-    box-shadow:  5px 5px 8px #111111,
-                -5px -5px 8px #2c2c2c;
+    box-shadow:  inset 5px 5px 8px #111111,
+                inset -5px -5px 8px #2c2c2c;
 }
 .skill_card .badge{
     width: 200px;
@@ -454,15 +454,23 @@ nav ul li .active{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1.5rem;
+    flex-wrap: wrap;
+    gap: 2.0rem;
 }
 .service_box .service_card{
-    width: 435px;
+    width: 420px;
     height: auto;
     background: var(--bg_color);
-    box-shadow: inset 3px 3px 7px #131313,
-    inset -3px -3px 7px #404040;
+    box-shadow: 3px 3px 7px #131313,
+                -3px -3px 7px #404040;
     padding: 25px;
+    border-radius: 6px;
+    transition: var(--ease_out);
+}
+.service_box .service_card:hover{
+    box-shadow: inset 3px 3px 7px #131313,
+                inset -3px -3px 7px #404040;
+    opacity: 0.95;
 }
 
 /* 
