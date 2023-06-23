@@ -448,6 +448,22 @@ nav ul li .active{
     justify-content: center;
     flex-direction: column;
 }
+.service_section .service_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.service_box .service_card{
+    width: 435px;
+    height: auto;
+    background: var(--bg_color);
+    box-shadow: inset 3px 3px 7px #131313,
+    inset -3px -3px 7px #404040;
+    padding: 25px;
+}
 
 /* 
 .shadow-inset {
