@@ -621,6 +621,31 @@ nav ul li .active{
     flex-direction: column;
     background: rgba(0, 0, 0, 0.09);
 }
+.blog_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3.0rem;
+}
+.blog_card{
+    width: 320px;
+    height: auto;
+    background: var(--primary);
+    border-radius: 4px;
+    overflow: hidden;
+}
+.blog_card .blog_img{
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+    object-position: center;
+}
+.blog_card .blog_data{
+    
+}
 
 
 /*  */
