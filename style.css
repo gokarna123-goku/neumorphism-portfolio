@@ -455,17 +455,22 @@ nav ul li .active{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2.0rem;
+    gap: 3.0rem;
 }
 .service_box .service_card{
-    width: 420px;
+    width: 410px;
     height: auto;
     background: var(--bg_color);
     box-shadow: 3px 3px 7px #131313,
                 -3px -3px 7px #404040;
-    padding: 25px;
+    padding: 35px 25px;
     border-radius: 6px;
     transition: var(--ease_out);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 .service_box .service_card:hover{
     box-shadow: inset 3px 3px 7px #131313,
@@ -473,6 +478,40 @@ nav ul li .active{
     opacity: 0.95;
 }
 
+.service_icon{
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+    background: var(--bg_color);
+    box-shadow: inset 3px 3px 7px #131313,
+                inset -3px -3px 7px #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.0rem;
+    color: var(--primary);
+    margin-bottom: 1.75rem;
+    transition: var(--ease_out);
+}
+.service_card:hover .service_icon{
+    box-shadow: 3px 3px 7px #131313,
+                -3px -3px 7px #404040;
+}
+.service_card .service_title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--secondary);
+    letter-spacing: 0.02rem;
+    opacity: 0.8;
+    margin-bottom: 0.8rem;
+}
+.service_card .desc{
+    font-size: 1.08rem;
+    font-weight: 500;
+    color: var(--tertiary);
+    line-height: 1.3rem;
+    margin-bottom: 1.8rem;
+}
 
 
 
