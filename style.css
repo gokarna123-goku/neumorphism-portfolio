@@ -520,7 +520,38 @@ nav ul li .active{
 
 
 /* Portfolio Section */
-
+.portfolio_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.portfolio_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.portfolio_card{
+    width: 426px;
+    height: 65vh;
+    border-radius: 4px;
+    background: var(--bg_color);
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: .5px .5px 7px #131313,
+                -.5px -.5px 7px #404040;
+    transition: var(--ease_out);
+    overflow: hidden;
+}
+.portfolio_card:hover{
+    border: 1px solid var(--bg_color);
+    box-shadow: 3px 3px 7px #131313,
+                -3px -3px 7px #404040;
+}
 
 
 
