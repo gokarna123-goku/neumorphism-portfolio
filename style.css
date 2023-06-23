@@ -181,9 +181,10 @@ nav ul li .active{
     height: 200px;
     border-radius: 50%;
     padding: 10px;
-    border: 2px solid #3e3e3e;
-    box-shadow: 2px 2px 14px #272727, 
-                -2px -2px 14px #3e3e3e;
+    border: 2px solid var(--primary);
+    /* #3e3e3e */
+    box-shadow: 4px 4px 24px #3e3e3e, 
+                -4px -4px 24px #3e3e3e;
     overflow: hidden;
     margin-bottom: 1.5rem;
 }
@@ -202,7 +203,7 @@ nav ul li .active{
     justify-content: center;
     flex-direction: column;
     row-gap: 0.4rem;
-    margin-bottom: 2.2rem;
+    margin-bottom: 3.5rem;
 }
 
 .user_info .fullname{
@@ -658,7 +659,7 @@ nav ul li .active{
     margin-bottom: 0.9rem;
 }
 .blog_data .blog_title{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     color: var(--secondary);
     font-weight: 550;
     opacity: 0.8;
