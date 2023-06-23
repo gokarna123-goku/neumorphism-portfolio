@@ -390,7 +390,7 @@ nav ul li .active{
     font-size: 1.0rem;
     color: var(--bg_color);
     border-radius: 4px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.0rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -438,6 +438,22 @@ nav ul li .active{
     border-bottom-right-radius: 10px;
 }
 
+
+/* Service Section */
+.service_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* 
+.shadow-inset {
+    box-shadow: inset 2px 2px 5px #b8b9be,inset -3px -3px 7px #fff!important;
+}
+ */
 
 
 
