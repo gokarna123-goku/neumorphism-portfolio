@@ -633,7 +633,6 @@ nav ul li .active{
 .blog_card{
     width: 320px;
     height: auto;
-    background: var(--primary);
     border-radius: 4px;
     overflow: hidden;
 }
@@ -644,7 +643,18 @@ nav ul li .active{
     object-position: center;
 }
 .blog_card .blog_data{
-    
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+}
+.blog_data .publish_data{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.0rem;
+    color: var(--tertiary);
 }
 
 
