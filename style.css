@@ -171,6 +171,47 @@ nav ul li .active{
     justify-content: center;
     flex-direction: column;
 }
+.hero_section .img_box{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #3e3e3e;
+    box-shadow: 2px 2px 14px #272727, 
+                -2px -2px 14px #3e3e3e;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+}
+.img_box .user_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    box-shadow: 4px 4px 20px #3c3c3c, 
+                -4px -4px 20px #3e3e3e;
+}
+.hero_section .user_info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 0.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.user_info .fullname{
+    font-size: 3.5rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: var(--secondary);
+}
+.user_info .professional{
+    font-size: 1.65rem;
+    font-weight: 550;
+    letter-spacing: 0.05rem;
+    color: var(--primary);
+}
 
 
 
