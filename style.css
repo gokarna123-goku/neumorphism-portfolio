@@ -44,17 +44,24 @@ li{
 
 /* ===================X Global Button Styling X=================== */
 .primary_btn{
-    background: var(--primary);
-    border: 2px solid var(--primary);
+    border: 2px solid rgba(95, 96, 179, 0.35);
+    background: rgba(95, 96, 179, 0.3);
     font-size: 1.1rem;
     color: var(--secondary);
-    padding: 10px 20px;
+    border-radius: 8px;
+    padding: 14px 35px;
+    box-shadow:  2px 2px 6px #131313,
+                -2px -2px 6px #3f3f3f;
     transition: var(--ease_out);
+    cursor: pointer;
 }
 .primary_btn:hover{
     background: transparent;
-    border: 2px solid var(--primary);
     color: var(--primary);
+    /* border: 2px solid #3f3f3f; */
+    border: 2px solid rgba(95, 96, 179, 0.55);
+    box-shadow:  2px 2px 8px #131313,
+                -2px -2px 8px #3f3f3f;
 }
 .secondary_btn{
     background: transparent;
@@ -82,6 +89,16 @@ li{
 .tertiary_btn:hover{
     color: var(--secondary);
     opacity: 0.65;
+}
+
+.hero_section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 
