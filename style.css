@@ -383,11 +383,14 @@ nav ul li .active{
                 -5px -5px 8px #2c2c2c;
 }
 .skill_card .badge{
+    width: auto;
+    height: auto;
     background: var(--primary);
     padding: 10px;
     font-size: 1.0rem;
     color: var(--bg_color);
     border-radius: 4px;
+    margin-bottom: 1.5rem;
 }
 
 
