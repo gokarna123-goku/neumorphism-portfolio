@@ -536,6 +536,7 @@ nav ul li .active{
     gap: 1.5rem;
 }
 .portfolio_card{
+    position: relative;
     width: 426px;
     height: 65vh;
     border-radius: 4px;
@@ -551,6 +552,58 @@ nav ul li .active{
     border: 1px solid var(--bg_color);
     box-shadow: 3px 3px 7px #131313,
                 -3px -3px 7px #404040;
+}
+.portfolio_card .portfolio_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+.portfolio_card .portfolio_data{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+    background: var(--bg_gradient_portfolio);
+    /* width: 100%;
+    height: auto; */
+    padding: 30px 25px 15px 25px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: column;
+    opacity: 1;
+    transform: opacity 0.78s ease-out;
+}
+.portfolio_data .portfolio_title{
+    font-size: 1.3rem;
+    color: var(--secondary);
+    font-weight: 550;
+    letter-spacing: 0.02rem;
+    opacity: 0.9;
+    margin-bottom: 0.8rem;
+}
+.portfolio_data .portfolio_detail{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.portfolio_detail .portfolio_type{
+    font-size: 1.0rem;
+    color: var(--tertiary);
+    font-weight: 500;
+}
+.portfolio_detail .buttons{
+    display: flex;
+    align-items: center;
+    column-gap: 1.0rem;
+}
+.portfolio_detail .buttons a{
+    font-size: 1.2rem;
+    color: var(--primary);
 }
 
 
