@@ -684,7 +684,7 @@ nav ul li .active{
     justify-content: center;
 }
 .contact_card{
-    width: 90%;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -695,6 +695,24 @@ nav ul li .active{
     box-shadow: 5px 5px 8px #111111,
                 -5px -5px 8px #2c2c2c;
 }
-
+.contact_data{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+.contact_data .data_card{
+    padding: 35px 30px;
+    background: rgba(95, 96, 179, 0.15);
+    box-shadow: inset 5px 5px 8px #111111,
+                inset -5px -5px 8px #2c2c2c;
+    /* border: 1px solid var(--primary); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /*  */
