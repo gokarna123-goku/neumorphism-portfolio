@@ -136,6 +136,15 @@ nav.fixed{
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+    animation: smoothScroll 1s forwards;
+}
+@keyframes smoothScroll {
+	0% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
 }
 nav .logo_section{
     font-size: 1.75rem;

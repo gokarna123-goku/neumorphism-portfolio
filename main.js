@@ -3,7 +3,7 @@ window.addEventListener("scroll", function(){
     var navbar = document.querySelector("nav");
     var scrollY = window.scrollY;
 
-    if(scrollY >= 100){
+    if(scrollY >= 150){
         navbar.classList.add("fixed");
         navbar.style.transition = "0.5s ease-out";
     } else{
