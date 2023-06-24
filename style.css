@@ -814,5 +814,16 @@ form .input_box textarea{
 }
 
 
+/* Footer Section */
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.65);
+}
+
+
 
 /*  */
