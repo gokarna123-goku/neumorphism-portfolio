@@ -119,10 +119,23 @@ nav{
     padding: 25px 60px;
     border-radius: 0px;
     background: linear-gradient(225deg, #1f1f1f, #242424);
-    box-shadow:  -.5px .5px 15px #0e0e0e;
+    box-shadow:  -.5px .5px 8px #0e0e0e;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+nav.fixed{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 25px 60px;
+    border-radius: 0px;
+    background: linear-gradient(225deg, #1f1f1f, #242424);
+    box-shadow:  -.5px .5px 10px #0e0e0e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
 }
 nav .logo_section{
     font-size: 1.75rem;
@@ -822,7 +835,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(0, 0, 0, 0.75);
     font-size: 1.0rem;
     color: var(--bg_color);
     margin-bottom: 0;
