@@ -670,6 +670,9 @@ nav ul li .active{
 .contact_section{
     width: 100%;
     height: auto;
+    background: var(--bg_gradient), url("./img/bg.jpg") no-repeat;
+    background-position: center center;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -684,7 +687,7 @@ nav ul li .active{
     justify-content: center;
 }
 .contact_card{
-    width: 100%;
+    width: 50%;
     height: auto;
     display: flex;
     align-items: center;
@@ -692,10 +695,11 @@ nav ul li .active{
     flex-direction: column;
     row-gap: 1.5rem;
     padding: 40px;
+    background: var(--bg_color);
     box-shadow: 5px 5px 8px #111111,
                 -5px -5px 8px #2c2c2c;
 }
-.contact_data{
+/* .contact_data{
     width: 100%;
     height: auto;
     display: flex;
@@ -709,10 +713,53 @@ nav ul li .active{
     background: rgba(95, 96, 179, 0.15);
     box-shadow: inset 5px 5px 8px #111111,
                 inset -5px -5px 8px #2c2c2c;
-    /* border: 1px solid var(--primary); */
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.data_card .icon_box{
+    width: 55px;
+    height: 60px;
+    border-radius: 6px;
+    border: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+
+
+.form_section{
+    width: 100%;
+    height: auto;
+}
+.form_section form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+form .input_card{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.input_card .input_box{
+    width: 50%;
+    height: auto;
+}
+form .input_box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
 
 /*  */
