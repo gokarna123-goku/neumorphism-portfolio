@@ -684,13 +684,16 @@ nav ul li .active{
     justify-content: center;
 }
 .contact_card{
-    width: 80%;
+    width: 90%;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     row-gap: 1.5rem;
+    padding: 40px;
+    box-shadow: 5px 5px 8px #111111,
+                -5px -5px 8px #2c2c2c;
 }
 
 
