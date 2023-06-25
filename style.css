@@ -933,7 +933,7 @@ footer{
         height: 100vh;
         background: var(--bg_color);
         box-shadow: inset 5px 5px 8px #111111,
-                inset -5px -5px 8px #2c2c2c;
+                    inset -5px -5px 8px #2c2c2c;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -944,7 +944,7 @@ footer{
         transition: all 0.68s ease-out;
         z-index: 9999;
     }
-    nav li{
+    nav ul li{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -952,10 +952,9 @@ footer{
     #toggleIcon{
         display: block;
     }
-    nav a{
-        font-size: 1.5rem;
-        font-weight: 600;
-        padding: 10px 100px;
+    nav ul li a{
+        font-size: 1.3rem;
+        padding: 0.9rem 4.0rem;
     }
     nav ul.showNavbar{
         right: 0;
