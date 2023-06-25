@@ -1051,19 +1051,34 @@ footer{
     .main_padding{
         padding: 60px 30px;
     }
+    .hero_section .img_box {
+        width: 170px;
+        height: 170px;
+    }
     .user_info .fullname {
         font-size: 2.5rem;
-        font-weight: bold;
-        letter-spacing: 0.05rem;
-        color: var(--secondary);
+    }
+    .user_info .professional {
+        font-size: 1.45rem;
+    }
+    .hero_section .social_account {
+        column-gap: 1.2rem;
+    }
+    .social_account .social_box {
+        width: 40px;
+        height: 40px;
+    }
+    .about_section .left_section {
+        height: 54vh;
     }
     .portfolio_card {
-        width: 100%;
-        height: 75vh;
-        margin-bottom: 0.5rem;
+        height: 60vh;
     }
     .blog_card .blog_img {
-        height: 45vh;
+        height: 40vh;
+    }
+    .contact_card {
+        padding: 30px;
     }
 }
 
