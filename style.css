@@ -161,30 +161,34 @@ nav ul li a{
     color: var(--tertiary);
     font-size: 1.12rem;
     font-weight: 500;
-    transition: var(--ease_out);
     border-bottom: 3px solid transparent;
     letter-spacing: 0.02rem;
     border-radius: 2px;
-    padding: 0.5rem 0.7rem;
+    padding: 0.5rem 0.9rem;
     border-radius: 4px;
     box-shadow: inset 5px 5px 8px #111111,
                 inset -5px -5px 8px #2c2c2c;
+    /* transition: var(--ease_out); */
 }
 nav ul li a:hover{
     color: var(--primary);
     font-size: 1.12rem;
     font-weight: 500;
-    border-bottom: 3px solid var(--primary);
+    border-top: 2px solid var(--primary);
     letter-spacing: 0.02rem;
     border-radius: 2px;
+    box-shadow: 2px 2px 8px #111111,
+                -4px -4px 8px #3b3b3b;
 }
 nav ul li .active{
     color: var(--primary);
     font-size: 1.12rem;
     font-weight: 500;
-    border-bottom: 3px solid var(--primary);
+    border-top: 2px solid var(--primary);
     letter-spacing: 0.02rem;
     border-radius: 2px;
+    box-shadow: 2px 2px 8px #111111,
+                -4px -4px 8px #3b3b3b;
 }
 
 
