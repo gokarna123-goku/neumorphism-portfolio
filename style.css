@@ -180,7 +180,7 @@ nav ul li a:hover{
     box-shadow: 2px 2px 8px #111111,
                 -4px -4px 8px #3b3b3b;
 }
-nav ul li .active{
+nav ul li a.active{
     color: var(--primary);
     font-size: 1.12rem;
     font-weight: 500;
