@@ -440,15 +440,17 @@ nav ul li .active{
 .skill_card .badge{
     width: 200px;
     height: auto;
-    background: var(--primary);
+    /* background: var(--primary); */
     padding: 10px;
     font-size: 1.0rem;
-    color: var(--bg_color);
+    color: var(--tertiary);
     border-radius: 4px;
     margin-bottom: 2.0rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 5px 5px 8px #111111,
+                -5px -5px 8px #2c2c2c;
 }
 .progress_section{
     width: 100%;
