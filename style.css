@@ -902,7 +902,53 @@ footer{
 /* Responsive Codes */
 @media screen and ( max-width:1024px ) {
     .main_padding{
-        padding: 60px 80px;
+        padding: 60px;
+    }
+    .about_section .right_section {
+        width: 48%;
+        height: auto;
+    }
+}
+@media screen and ( max-width:768px ) {
+    .main_padding{
+        padding: 60px;
+    }
+    .about_section .left_section {
+        width: 100%;
+        height: 80vh;
+    }
+    .about_section .right_section {
+        width: 100%;
+        height: auto;
+    }
+    .skill_section .skill_box {
+        flex-wrap: wrap;
+    }
+    .skill_box .skill_card {
+        width: 100%;
+    }
+    .service_section .service_box {
+        column-gap: 2.0rem;
+        row-gap: 2.0rem;
+    }
+    .service_box .service_card {
+        width: 300px;
+    }
+    .portfolio_box {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .portfolio_card {
+        width: 305px;
+        height: 55vh;
+        margin-bottom: 0.5rem;
+    }
+    .portfolio_detail .buttons {
+        column-gap: 0.65rem;
+    }
+    .contact_card {
+        width: 100%;
+        padding: 50px;
     }
 }
 
