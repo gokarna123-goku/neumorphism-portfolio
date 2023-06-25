@@ -513,6 +513,7 @@ nav ul li a.active:focus{
                 inset -5px -5px 8px #2c2c2c;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding: 2px;
 }
 .progress .progress_bar{
     background: var(--primary);
