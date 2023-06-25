@@ -1003,12 +1003,6 @@ footer{
 }
 
 @media screen and ( max-width:600px ) {
-    /* nav{
-        padding: 25px 40px;
-    }
-    nav.fixed{
-        padding: 25px 40px;
-    } */
     .service_box .service_card {
         width: 100%;
     }
