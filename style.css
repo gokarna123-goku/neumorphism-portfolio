@@ -191,6 +191,21 @@ nav ul li .active{
                 -4px -4px 8px #3b3b3b;
 }
 
+/* nav ul li a:focus,
+nav ul li a:active:focus,
+nav ul li a.active:focus{
+    outline: none;
+    background: none;
+    color: var(--primary);
+    font-size: 1.12rem;
+    font-weight: 500;
+    border-top: 2px solid var(--primary);
+    letter-spacing: 0.02rem;
+    border-radius: 2px;
+    box-shadow: 2px 2px 8px #111111,
+                -4px -4px 8px #3b3b3b;
+} */
+
 
 
 /* Hero Section */
@@ -881,6 +896,15 @@ footer{
     margin-bottom: 0;
 }
 
+
+
+
+/* Responsive Codes */
+@media screen and ( max-width:1024px ) {
+    .main_padding{
+        padding: 60px 80px;
+    }
+}
 
 
 /*  */
