@@ -191,6 +191,17 @@ nav ul li .active{
                 -4px -4px 8px #3b3b3b;
 }
 
+
+/* Toggle Icon Styling */
+#toggleIcon{
+    font-size: 1.5rem;
+    color: var(--tertiary);
+    float: right;
+    line-height: 3.5rem;
+    display: none;
+}
+
+
 /* nav ul li a:focus,
 nav ul li a:active:focus,
 nav ul li a.active:focus{
@@ -910,6 +921,44 @@ footer{
     }
 }
 @media screen and ( max-width:768px ) {
+    nav{
+        padding: 25px 40px;
+    }
+    nav.fixed{
+        padding: 25px 40px;
+    }
+    nav ul{
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        background: rgba(31, 31, 31, 0.99);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(7.5px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        top: 75px;
+        right: -100%;
+        text-align: center;
+        transition: all 0.68s ease-out;
+        z-index: 9999;
+    }
+    nav li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #toggleIcon{
+        display: block;
+    }
+    nav a{
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    nav ul.showNavbar{
+        right: 0;
+    }
     .main_padding{
         padding: 60px;
     }
