@@ -371,7 +371,7 @@ nav ul li .active{
 }
 .my_info .line{
     width: 100%;
-    height: 1.5px;
+    height: 3.5px;
     background: var(--primary);
 }
 .my_info .info_data{
@@ -383,17 +383,18 @@ nav ul li .active{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    column-gap: 1.5rem;
 }
 .info_data .info_box{
     background: var(--bg_color);
     color: var(--secondary);
     display: flex;
     align-items: center;
-    column-gap: 0.5rem;
-    padding: 8px 10px;
+    column-gap: 0.8rem;
+    padding: 8px 15px;
     border-radius: 4px;
     font-size: 0.99rem;
+    box-shadow: inset 5px 5px 8px #111111,
+                inset -5px -5px 8px #2c2c2c;
 }
 .info_data .info_box i{
     width: 30px;
