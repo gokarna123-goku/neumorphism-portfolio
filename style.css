@@ -155,7 +155,7 @@ nav .logo_section{
 nav ul{
     display: flex;
     align-items: center;
-    gap: 2.0rem;
+    gap: 1.5rem;
 }
 nav ul li a{
     color: var(--tertiary);
@@ -165,7 +165,10 @@ nav ul li a{
     border-bottom: 3px solid transparent;
     letter-spacing: 0.02rem;
     border-radius: 2px;
-    padding-bottom: 0.3rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 4px;
+    box-shadow: inset 5px 5px 8px #111111,
+                inset -5px -5px 8px #2c2c2c;
 }
 nav ul li a:hover{
     color: var(--primary);
@@ -276,7 +279,9 @@ nav ul li .active{
     transform: translateX(-50%);
     font-size: 2.0rem;
     color: var(--primary);
-    opacity: 0.4;
+    opacity: 0.8;
+    text-shadow: 2px 2px 20px #636363,
+                 -2px -2px 20px #5c5c5c;
     animation: scrollAnimation 5s infinite alternate;
     -webkit-animation: scrollAnimation 5s infinite  alternate;
 }
