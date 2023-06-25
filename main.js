@@ -1,3 +1,4 @@
+// 
 
 window.addEventListener("scroll", function(){
     var navbar = document.querySelector("nav");
@@ -10,4 +11,15 @@ window.addEventListener("scroll", function(){
         navbar.classList.remove("fixed");
         navbar.style.transition = "0.5s ease-out";
     }
-})
+});
+
+
+// 
+$(document).ready(function () {
+    $("#toggleIcon").click(function () {
+        $("ul").toggleClass("showNavbar");
+    });
+});
+
+
+// 

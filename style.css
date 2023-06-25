@@ -929,16 +929,16 @@ footer{
     }
     nav ul{
         position: fixed;
-        width: 300px;
+        width: 100%;
         height: 100vh;
-        background: rgba(31, 31, 31, 0.99);
-        backdrop-filter: blur(7.5px);
-        -webkit-backdrop-filter: blur(7.5px);
+        background: var(--bg_color);
+        box-shadow: inset 5px 5px 8px #111111,
+                inset -5px -5px 8px #2c2c2c;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        top: 75px;
+        top: 100px;
         right: -100%;
         text-align: center;
         transition: all 0.68s ease-out;
@@ -955,6 +955,7 @@ footer{
     nav a{
         font-size: 1.5rem;
         font-weight: 600;
+        padding: 10px 100px;
     }
     nav ul.showNavbar{
         right: 0;
